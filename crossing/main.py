@@ -1,3 +1,6 @@
+# Author: Pramod K Singh
+# Date: March 2024
+
 import time
 from turtle import Screen
 from player import Player

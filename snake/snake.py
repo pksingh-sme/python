@@ -1,3 +1,6 @@
+# Author: Pramod K Singh
+# Date: March 2024
+
 from turtle import Turtle
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20

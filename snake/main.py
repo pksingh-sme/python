@@ -1,3 +1,6 @@
+# Author: Pramod K Singh
+# Date: March 2024
+
 from turtle import Screen
 from snake import Snake
 from food import Food

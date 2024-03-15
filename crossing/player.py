@@ -1,3 +1,6 @@
+# Author: Pramod K Singh
+# Date: March 2024
+
 from turtle import Turtle
 
 STARTING_POSITION = (0, -280)

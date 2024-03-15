@@ -1,3 +1,6 @@
+# Author: Pramod K Singh
+# Date: March 2024
+
 from turtle import Screen, Turtle
 from paddle import Paddle
 from ball import Ball

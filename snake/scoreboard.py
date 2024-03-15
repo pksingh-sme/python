@@ -1,3 +1,6 @@
+# Author: Pramod K Singh
+# Date: March 2024
+
 from turtle import Turtle
 ALIGNMENT = "center"
 FONT = ("Courier", 24, "normal")

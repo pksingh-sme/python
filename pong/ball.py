@@ -1,3 +1,6 @@
+# Author: Pramod K Singh
+# Date: March 2024
+
 from turtle import Turtle
 MOVE_SPEED = 0.1 #1/1000
 
