@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Coffee and Wifi{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <div class="container">
+  <h1 class="display-4">☕️ Welcome to <span style="color:#ffc107">TNT</span> 🏍️</h1>
+  <p class="lead">Are you ready to experience the thrill of the open road like never before?</p>
+  <hr class="my-4">
+  <p>Leave the stresses of daily life behind as you hit the road and embrace the freedom that comes with riding. Feel the wind in your hair, the sun on your face, and the thrill of adventure coursing through your veins as you explore new destinations and conquer new horizons..</p>
+  <a class="btn btn-warning btn-lg" href="{{url_for('rides')}}" role="button">Show Me!</a>
+</div>
+    </div>
+
+{% endblock %}

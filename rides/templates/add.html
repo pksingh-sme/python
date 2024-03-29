@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+<!--Don't forget your import here-->
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% block title %}Add a new ride{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+
+      <h1>Add a new ride for coming/completed trip</h1>
+
+      <!-- This is where your WTForm will go -->
+      {{ render_form(form, novalidate=True) }}
+
+	  <p class="space-above"><a href="{{ url_for('rides') }}">See all rides</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
